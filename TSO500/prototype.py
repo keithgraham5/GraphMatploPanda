@@ -1,0 +1,1 @@
+'''Prototype using plt.scatter()'''
