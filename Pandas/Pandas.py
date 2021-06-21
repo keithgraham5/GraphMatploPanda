@@ -124,6 +124,10 @@ print(df.iloc[0])
 # df.reset_index().drop_duplicates(subset='index', keep='last').set_index('index')
 # print(df)
 
+'''HOW TO DROP A SINGLE COLUMN FROM A DATAFRAME'''
+df1 = df.drop(['column_name'], axis=1) # creates a new DataFrame
+del(df['column_name']) # applies to the current DF, does not create new DF
+
 
 
 '''HOW TO ITERATE OVER A PANDAS DATAFRAME '''
